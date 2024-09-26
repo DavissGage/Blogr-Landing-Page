@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles/styles.css" rel="stylesheet">
+<!--Overpass-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--Ubuntu-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <title>Blogr</title>
+</head>
+<body>
+
+  <!--Section 1-->
+  <div class="action-landing">
+
+  <!--class needs to be renamed from tex-layer to Nav-bar-->
+    <div class="mobile-nav">
+      <img src="images/logo.svg" alt="">
+       <div class="hamburger">
+         <img id="hamburger"  src="images/icon-hamburger.svg" alt="hamburger menu button">
+         <img id="closeMenu" class="close-btn" src="images/icon-close.svg" alt="close menu button">
+       </div>
+    </div>
+
+    <div class="desktop-nav">
+      <div class="navbar-list">
+        <img class="image-logo" src="images/logo.svg" alt="">
+        <div class="dropdown">
+          <button class="dropbtn">Product 
+            <img class="desktop-arrow" src="images/icon-arrow-light.svg" alt="">
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Overview</a>
+            <a href="#">Pricing</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Features</a>
+            <a href="#">Integration</a>
+          </div>
+        </div> 
+        
+         <div class="dropdown">
+          <button class="dropbtn">Company
+            <img class="desktop-arrow" src="images/icon-arrow-light.svg" alt="">
+          </button>
+          <div class="dropdown-content">
+            <a href="#">About</a>
+            <a href="#">Team</a>
+            <a href="#">Blog</a>
+            <a href="#">Careers</a>
+          </div>
+        </div> 
+       
+        <div class="dropdown">
+          <button class="dropbtn">Connect 
+            <img class="desktop-arrow" src="images/icon-arrow-light.svg" alt="">
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Contact</a>
+            <a href="#">Newsletter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div> 
+      </div>
+      <div class="action-btns">
+      <button type="button"  class="btn btn-clear">Login</button>
+      <button type="button" class="btn btn-white">Sign Up</button>
+    </div>
+     </div>
+
+    <!--Hero-Text-->
+    <div class="hero-text-layer">
+      <h1>A modern publishing platform</h1>
+       <h3 class="hero-text-h3"> Grow your audience and build your online brand</h3>
+       <button type="button" class="btn btn-white">Start for Free</button>
+       <button type="button"  class="btn btn-clear">Learn More</button>
+    </div>
+
+    <!--Background Pattern-->
+     <svg width="1323" height="1323" viewBox="0 0 1324 1323" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1=".695%" y1="0%" x2="99.305%" y2="100%" id="a"><stop stop-color="#FF8F71" offset="0%"/><stop stop-color="#FF3E55" offset="100%"/></linearGradient></defs><path d="M821.895188,497.739327 L821.895188,825.739327 L493.895188,825.739327 L493.895188,597.739327 C493.895188,542.510852 538.666713,497.739327 593.895188,497.739327 L821.895188,497.739327 Z M276.655938,496.460979 C367.230637,496.460979 440.655938,569.88628 440.655938,660.460979 C440.655938,751.035678 367.230637,824.460979 276.655938,824.460979 C186.081239,824.460979 112.655938,751.035678 112.655938,660.460979 C112.655938,569.88628 186.081239,496.460979 276.655938,496.460979 Z M822.227687,111.489551 L822.227687,439.489551 L594.227687,439.489551 C538.999212,439.489551 494.227687,394.718026 494.227687,339.489551 L494.227687,339.489551 L494.227687,111.489551 L822.227687,111.489551 Z M440.061253,110.58581 L440.061253,338.58581 C440.061253,393.814285 395.289728,438.58581 340.061253,438.58581 L112.061253,438.58581 L112.061253,110.58581 L440.061253,110.58581 Z" transform="rotate(22 67.652 1066.199)" fill="url(#a)" fill-rule="evenodd"/></svg>
+    
+ </div>
+
+
+ <!--Model for Mobile Nav-bar-->
+ <div id="mobile-menu" class="mobile-menu">
+  <ul class="nav-bar">
+    <li class="dropdown">
+      <a class="drop-item" href="#" >Product<img class="arrow" src="images/icon-arrow-dark.svg" alt=""/></a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Overview</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Pricing</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">MarketPlace</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Features</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Integrations</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a class="drop-item" href="#">Company<img class="arrow" src="images/icon-arrow-dark.svg" alt=""/></a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-list-item"><a class="menu-item" href="#">About</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Team</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Blog</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Careers</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a class="drop-item" href="#">Connect<img class="arrow" src="images/icon-arrow-dark.svg" alt=""/></a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Contact</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">Newsletter</a></li>
+        <li class="dropdown-list-item"><a class="menu-item" href="#">LinkedIn</a></li>
+      </ul>
+    </li>
+  </ul>
+  <hr class="line-break">
+  <div class="menu-buttons">
+    <button type="button" class="btn mobile-menu-btn-login">Login</button>
+    <button type="button" class="btn mobile-menu-btn-signup">Sign Up</button>
+  </div>
+ 
+  </div>
+
+ </div>
+
+ <!--Section 2--> 
+ <div class="design-heading">
+  <h1>Designed for the future</h1>
+ </div>
+
+<!--Section-2-Image-->
+<div class="desktop-features-section-1">
+    <div class="features-image" >
+      <img class="illustration-mobile" src="images/illustration-editor-mobile.svg" alt="">
+    </div>
+
+    <div class="section-heading desktop-feature-heading-1">
+      <h1>Introducing an extensible editor</h1>
+    </div>
+
+    <div class="section-paragraph desktop-feature-paragraph-1">
+      <p>
+        <b class="bold">Blogr</b> features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+        change the looks of a blog.
+      </p>
+    </div>
+
+    <div class="section-heading feature-heading-2">
+      <h1>Robust content management</h1>
+    </div>
+      
+    <div class="section-paragraph feature-paragraph-2">
+      <p>
+        Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+      by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+      </p>
+    </div>
+    
+      <img class="illustration-desktop illustration-editor-image" src="images/illustration-editor-desktop.svg" alt="">
+   
+</div>
+ 
+</div>
+<div class="phone-container">
+  <div class="space"></div>
+  <img class="phone" src="images/illustration-phones.svg"  alt=""> 
+</div>
+
+
+
+
+ <div class="phones-mobile-parent">
+  
+
+    <svg class="circle-svg" width="1014" height="1018" viewbox="0 0 1014 1018" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(1 0 0 -1 0 1018)" fill="none" fill-rule="evenodd"><rect fill="#3E4062" x="213" y="214" width="588" height="590" rx="294"/><rect stroke="#878D92" opacity=".5" x=".5" y=".5" width="1013" height="1017" rx="506.5"/><rect stroke="#878D92" x="170.5" y="171.5" width="673" height="675" rx="336.5"/></g></svg>
+
+  <div class="phone-section-text">
+   <h1 class="circle-heading">State of the Art Infrastructure</h1>
+      <p class="circle-paragraph">
+        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+      </p>
+    </div> 
+ </div>
+ <div class="space-2"></div>
+ <div class="final-features-section">
+  <div class="image-laptop" >
+    <img class="illustration-mobile" src="images/illustration-laptop-mobile.svg" alt="">
+    <img class="illustration-desktop laptop-grid" src="images/illustration-laptop-desktop.svg" alt="">
+  </div>
+    
+  
+    <div class="section-heading final-features-heading-1">
+      <h2>
+        Free, open, simple
+      </h2>
+    </div>
+  
+    <div class="section-paragraph finaly-features-paragraph-1">
+      <p> 
+        Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+      </p>
+  
+    </div>
+  
+    <div class=" final-features-heading-2">
+      <h2>
+        Powerful Tooling
+      </h2>
+    </div>
+  
+    <div class=" final-features-paragraph-2">
+      <p>
+        Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+        capable of producing even the most complicated sites.
+      </p>
+    </div>
+ </div>
+ 
+  
+  <div class="footer">
+    <div class="footer-logo-parent">
+    <img class="footer-logo" src="images/logo.svg" alt="">
+  </div>
+  <h2 class="footer-headings grid-heading-1">
+    Product
+  </h2>
+  
+<div class="footer-items footer-items-1">
+ <p>Overview</p> 
+ <p>Pricing</p>
+ <p>Marketplace</p>
+ <p>Features</p>
+ <p>Integrations</p>
+</div>
+
+<h2 class="footer-headings grid-heading-2">
+  Company
+</h2>
+  
+<div class="footer-items  footer-items-2">
+  <p>About</p>
+  <p>Team</p>
+  <p>Blog</p>
+  <p>Careers</p>
+</div>
+  
+<h2 class="footer-headings grid-heading-3">
+  Connect
+</h2>
+
+  <div class="footer-items  footer-items-3">
+  <p>Contact</p>
+  <p>Newsletter</p>
+  <p>LinkedIn</p>
+</div>
+
+<div class="attribution">
+  Challenge by <a class="footer-attribution" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded with &#x1F499; by <a class="footer-attribution" href="#">Gage Davis</a>.
+</div>
+  </div>
+  
+<script src="index.js"></script>
+</body>
+</html>
